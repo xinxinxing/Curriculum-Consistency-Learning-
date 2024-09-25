@@ -13,8 +13,8 @@ Specifically, it delivers +2.0 average accuracy point improvement compared with 
 Our comprehensive analysis further indicates that models utilizing CCL are particularly adept at managing complex instances, showcasing the effectiveness and efficiency of CCL in improving CSG models.
 
 <div align="center">
-    <img width="100%" alt="Figure 1: The overall framework of CCL." src="./pic/CCL_mainpic.png">
-    <p class="image-caption">In the CL-aware Difficulty Measurer, CCL utilizes the intrinsic consistency loss to evaluate the sample difficulty. In the Model Proficiency Estimator, the training and validation sets are used to jointly determine model proficiency. Based on the sample difficulty and model proficiency, CCL can calculate the sample weight for the model training.</p>
+    <img width="100%" alt="" src="./pic/CCL_mainpic.png">
+    <p class="image-caption">Figure 1: The overall framework of CCL. In the CL-aware Difficulty Measurer, CCL utilizes the intrinsic consistency loss to evaluate the sample difficulty. In the Model Proficiency Estimator, the training and validation sets are used to jointly determine model proficiency. Based on the sample difficulty and model proficiency, CCL can calculate the sample weight for the model training.</p>
 </div>
 
 ### Environment
